@@ -9,3 +9,4 @@ The library promises lofty features that I hope to integrate in my own work.
 Below I will create an ordered list of things that I learned and features that I used.
 
 1. `react-query` context component and where to place it.
+2. How to fetch data by using the `useQuery` hook.
