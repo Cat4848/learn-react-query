@@ -1,10 +1,9 @@
 "use client";
 
-import { useQuery } from "@tanstack/react-query";
 import { useAllPosts } from "@/hooks/useAllPosts";
 
 export default function Posts() {
-  const allPosts = await useAllPosts();
+  const allPosts = useAllPosts();
 
   if (allPosts.isPending) return <p>Loading ...</p>;
 
