@@ -23,15 +23,19 @@ export default function Posts() {
       <form onSubmit={handleSubmit(handleCreatePostSubmit)}>
         <h4>New Post</h4>
         <input placeholder="User ID" {...register("userId")} />
-        <br/>
+        <br />
         <input placeholder="ID" {...register("id")} />
-        <br/>
+        <br />
         <input placeholder="Title" {...register("title")} />
-        <br/>
+        <br />
         <input placeholder="Body" {...register("body")} />
-        <br/>
+        <br />
 
-        <input type="submit"/>
+        <input
+          type="submit"
+          disabled={createPostMutation.isPending}
+          value={createPostMutation.isPending ? "Creating..." : "Create Post"}
+        />
       </form>
       <div>
         <h1>All Posts</h1>
