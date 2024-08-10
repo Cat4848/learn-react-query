@@ -10,3 +10,4 @@ Below I will create an ordered list of things that I learned and features that I
 
 1. `react-query` context component and where to place it.
 2. How to fetch data by using the `useQuery` hook.
+3. Mutate the data within an existing `useQuery`. This functionality is used when we need to add, update or delete data from a remote API.
