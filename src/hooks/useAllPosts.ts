@@ -9,7 +9,7 @@ async function fetchPosts() {
 
 export function useAllPosts() {
   return useQuery({
-    queryKey: ["all-posts"],
+    // queryKey: ["all-posts"],
     queryFn: fetchPosts
   });
 }
