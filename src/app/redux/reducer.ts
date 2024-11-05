@@ -1,6 +1,11 @@
-const initialState = { value: 0 };
+import { Reducer } from "@reduxjs/toolkit";
+
+interface Store {
+  value: number;
+}
+
 export default function reducer(
-  state = initialState,
+  state: Reducer<Store>,
   action: { type: string }
 ) {
   switch (action.type) {
