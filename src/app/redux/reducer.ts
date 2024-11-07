@@ -18,7 +18,7 @@ export default function reducer(state: Store, action: { type: string }) {
 }
 
 const nextFunct = (input: string) => {
-  console.log("log from next function -> ", input);
+  // console.log("log from next function -> ", input);
 };
 
 const print1 = (greeting: string) => (next: (input: string) => void) => {
