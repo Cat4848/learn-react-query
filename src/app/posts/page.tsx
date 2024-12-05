@@ -20,7 +20,7 @@ export default function Posts() {
 
   return (
     <>
-      {/* <form onSubmit={handleSubmit(handleCreatePostSubmit)}> */}
+      <form onSubmit={handleSubmit(handleCreatePostSubmit)}>
         <h4>New Post</h4>
         <input placeholder="User ID" {...register("userId")} />
         <br />
