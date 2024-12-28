@@ -13,7 +13,7 @@ export default function Posts() {
   const handleCreatePostSubmit: SubmitHandler<Post> = (post) =>
     createPostMutation.mutate(post);
 
-  // if (allPosts.isPending) return <p>Loading ...</p>;
+  if (allPosts.isPending) return <p>Loading ...</p>;
 
   if (allPosts.error)
     return <p>{"An error has occurred: " + allPosts.error.message}</p>;
