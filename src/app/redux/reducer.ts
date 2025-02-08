@@ -4,7 +4,7 @@ interface Store {
   value: number;
 }
 
-// export default function reducer(state: Store, action: { type: string }) {
+export default function reducer(state: Store, action: { type: string }) {
   switch (action.type) {
     case "increment":
       return {
