@@ -21,7 +21,7 @@ export default function RootLayout({
     <ReactReduxProvider>
       <ReactQueryProvider>
         <html lang="en">
-          {/* <body className={inter.className}> */}
+          <body className={inter.className}>
             <nav>
               <Link href="/">{"Home"}</Link>
               <Link href="posts">{"All Posts"}</Link>
