@@ -5,7 +5,7 @@ import ReactQueryProvider from "@/ReactQueryProvider";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import ReactReduxProvider from "@/ReactReduxProvider";
 
-// const inter = Inter({ subsets: ["latin"] };)
+const inter = Inter({ subsets: ["latin"] };)
 
 export const metadata: Metadata = {
   title: "Create Next App",
