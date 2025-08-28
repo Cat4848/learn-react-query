@@ -42,7 +42,7 @@ export default function Posts() {
 
         {allPosts.data.map((post) => (
           <div key={post.id}>
-            {/* <h3>{post.title}</h3> */}
+            <h3>{post.title}</h3>
             <p>{post.body}</p>
             <hr />
           </div>
