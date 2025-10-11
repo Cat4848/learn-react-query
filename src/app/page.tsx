@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      {/* <div>store value {state}</div> */}
+    /  <div>store value {state}</div>
       <button onClick={() => store.dispatch({ type: "increment" })}>
         Increment
       </button>
