@@ -15,4 +15,4 @@ export default function Home() {
   );
 }
 
-// store.subscribe(Home);
+store.subscribe(Home);
