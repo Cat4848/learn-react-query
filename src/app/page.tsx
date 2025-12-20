@@ -2,7 +2,7 @@
 import { store } from "./redux/store/createStore";
 import { useSelector, UseSelector } from "react-redux";
 
-export default function Home() {
+// export default function Home() {
   const state = useSelector<{ value: number }>((state) => state);
   return (
     <div>
