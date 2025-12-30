@@ -14,5 +14,4 @@ export default function Home() {
     </div>
   );
 }
-s
-// tore.subscribe(Home);
+store.subscribe(Home);
