@@ -1,5 +1,5 @@
 "use client";
-import { store } from "./redux/store/createStore";
+// import { store } from "./redux/store/createStore";
 import { useSelector, UseSelector } from "react-redux";
 
 export default function Home() {
