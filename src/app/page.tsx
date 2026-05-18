@@ -1,6 +1,6 @@
 "use client";
 import { store } from "./redux/store/createStore";
-import { useSelector, UseSelector } from "react-redux";
+// import { useSelector, useSelector } from "react-redux";
 
 export default function Home() {
   const state = useSelector<{ value: number }>((state) => state);
