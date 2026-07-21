@@ -14,4 +14,4 @@ export default function Home() {
     </div>
   );
 }
-store.subscribe(Home);
+// store.subscribe(Home);
